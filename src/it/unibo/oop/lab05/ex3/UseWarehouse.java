@@ -1,5 +1,7 @@
 package it.unibo.oop.lab05.ex3;
 
+import ProductImpl.ProductImpl;
+
 /**
  * Simple test class for {@link Warehouse}.
  * 
@@ -27,11 +29,11 @@ public final class UseWarehouse {
          * them to run the test.
          */
 
-        final Product p1 = null;
-        final Product p2 = null;
-        final Product p3 = null;
+        final Product p1 = new ProductImpl("Robot distruttori di pianeti", 12);
+        final Product p2 = new ProductImpl("Cammelli", 7);
+        final Product p3 = new ProductImpl("Cammelli", 10);
 
-        final Warehouse w = null;
+        final Warehouse w = new WharehouseImpl();
         w.addProduct(p3);
         w.addProduct(p1);
         w.addProduct(p2);

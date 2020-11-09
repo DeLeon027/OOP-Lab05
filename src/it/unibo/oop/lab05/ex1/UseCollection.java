@@ -3,7 +3,7 @@ package it.unibo.oop.lab05.ex1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+
 
 /**
  * Example class using {@link java.util.Collection}.

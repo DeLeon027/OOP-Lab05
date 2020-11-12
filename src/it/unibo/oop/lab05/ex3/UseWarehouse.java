@@ -1,7 +1,5 @@
 package it.unibo.oop.lab05.ex3;
 
-import ProductImpl.ProductImpl;
-
 /**
  * Simple test class for {@link Warehouse}.
  * 

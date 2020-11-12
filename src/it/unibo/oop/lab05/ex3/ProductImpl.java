@@ -1,6 +1,4 @@
-package ProductImpl;
-
-import it.unibo.oop.lab05.ex3.Product;
+package it.unibo.oop.lab05.ex3;
 
 public class ProductImpl implements Product {
 
@@ -24,14 +22,8 @@ public class ProductImpl implements Product {
 	
 	@Override
 	public String toString() {
-		return "ProductImpl [name=" + name + ", quantity=" + quantity + "]";
+		return "[name=" + name + ", quantity=" + quantity + "]";
 	}
 	
-	/*
-	 * @Override public boolean equals(Object o) {
-	 * 
-	 * return false;
-	 * 
-	 * }
-	 */
+
 }

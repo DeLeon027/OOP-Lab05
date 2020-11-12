@@ -5,8 +5,8 @@ import java.util.HashSet;
 
 public class WharehouseImpl implements Warehouse {
 	
-	final Set<String> allNames = new HashSet<>();
-	final Set<Product> allProducts = new HashSet<>();
+	protected final Set<String> allNames = new HashSet<>();
+	protected final Set<Product> allProducts = new HashSet<>();
 	
 
 	@Override
